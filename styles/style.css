@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+/*Navbar styling*/
+header {
+    background-color: #8BB34B;
+    height: 100px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.brand-name{
+    font-family: 'Zen Loop', cursive;
+}
+/*Menu bar*/
+
+/* .centre*/
+.centre {
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: #3F5C2A;
+    color: #ffffff; 
+    font-family: 'Quicksand', sans-serif;
+}
+.bg-baby-pink {
+    background-color: #4F662B;
+    border-color: #C2E1AB;
+    border-style: solid;
+    border-radius: 20px;
+}
+/*style divs with rounded corners*/
+div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.back-to-top {
+    text-decoration: none;
+    color:#8BB34B;
+
+}
+
+/*change font colours*/
+
+
+
+@media (max-width: 767px) {
+    .menu-bar {
+        height: 5px;
+        width: 35px;
+        background-color: #ffffff;
+        margin-bottom: 3px;
+    }    
+    .brand-name {
+        float: inline-start;
+    }
+    .dropdown {
+        float: inline-end;
+    }
+    .dropdown-menu {
+        width: 100%;
+        background-color: #8BB34B;
+        border-color: #8BB34B;
+        color: #ffffff;
+    }
+    .dropdown-items {
+        padding-left: 50%;
+        padding-right: 50%;
+        color: #ffffff;
+    }
+}
